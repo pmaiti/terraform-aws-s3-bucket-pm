@@ -8,5 +8,6 @@ A simple Terraform module to create an AWS S3 bucket.
 module "s3_bucket" {
   source      = "policy-as-code-training/s3-bucket-pm/aws"
   bucket_name = "my-bucket"
+  version = "1.0.0"
 }
 ``` 
